@@ -1,3 +1,8 @@
+NFT Web project based on https://www.figma.com/community/file/1127086062429534162 design
+Copyrights for design goes to Ayro
+Development Edgaras Stepanovas
+
+
 # panda-nft-marketplace
 
 ## Project setup
