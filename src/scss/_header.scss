@@ -1,0 +1,55 @@
+header {
+  padding-top: 38px;
+
+  @media (max-width: 767px) {
+    padding-top: 0;
+  }
+
+  .panda-logo {
+    span {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+  }
+
+  .header-links {
+    span {
+      color: #adb9c7;
+      margin: 0px 32px 0 32px;
+      font-weight: 600;
+
+      &:hover {
+        border-bottom: 2px solid #1e50ff;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+
+  .offcanvas {
+    color: white;
+    background: rgba(0, 0, 0, 0.82);
+
+    .btn-close {
+      color: #fff;
+    }
+  }
+
+  .connect-button {
+    padding: 12px 24.5px 12px 24.5px;
+    background: none;
+    color: #fff;
+    border-radius: 16px;
+    font-weight: 700;
+    border: 1px solid #1e50ff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background: #1e50ff;
+      border: 1px solid #fff;
+    }
+  }
+}
