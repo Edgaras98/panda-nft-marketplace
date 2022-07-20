@@ -1,0 +1,52 @@
+@import '../scss/variables.scss';
+
+#navigation {
+  .panda-logo {
+    .brand-title {
+      color: $white;
+      font-size: 16px;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+  }
+
+  .navigation-links {
+    .link {
+      color: $metaverse-grey;
+      margin: 0px 32px 0 32px;
+      font-weight: 600;
+
+      &:hover {
+        border-bottom: 2px solid $metaverse-blue;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+  }
+
+  .offcanvas {
+    color: $white;
+    background: rgba(0, 0, 0, 0.82);
+
+    .offcanvas-body {
+      .icon {
+        font-size: 32px;
+        color: $metaverse-grey;
+      }
+
+      .link {
+        cursor: pointer;
+        font-size: 32px;
+        color: $metaverse-grey;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .icons {
+    color: $metaverse-grey;
+    font-size: 48px;
+    cursor: pointer;
+  }
+
+}

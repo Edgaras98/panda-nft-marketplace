@@ -4,8 +4,6 @@ import router from './router';
 
 Vue.config.productionTip = false;
 
-Vue.component('header', require('./components/Navigation.vue'));
-
 new Vue({
   router,
   render: (h) => h(App),
